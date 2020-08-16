@@ -1,0 +1,21 @@
+{
+    "name": "mucts/macroable",
+    "description": "The MuCTS Macroable package.",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "herry",
+            "email": "yuandeng@aliyun.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MuCTS\\Macroable\\": "src/"
+        }
+    }
+}
